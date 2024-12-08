@@ -34,9 +34,14 @@ const showLatestPosts = (data) => {
         } = item;
 
         return `
-      <tr>
-      
-      </tr>
-    `;
+    <tr>
+      <td>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>`;
     }).join("");
 };
+
