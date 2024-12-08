@@ -36,6 +36,7 @@ const showLatestPosts = (data) => {
         return `
     <tr>
       <td>
+        <p class="post-title">${title}</p>
       </td>
       <td></td>
       <td></td>
