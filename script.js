@@ -10,7 +10,7 @@ const fetchData = async () => {
         const res = await fetch(forumLatest);
         const data = await res.json();
     } catch (err) {
-
+        console.log(err);
     }
 };
 
